@@ -1,5 +1,5 @@
-*
-*::before
+*,
+*::before,
 *::after{
      margin: 0;
      padding: 0;
@@ -49,7 +49,7 @@ header{
 .banner-heading{
     font-size: 6rem;
     font-style: italic;
-    padding: 0 2rem;
+    padding: 2rem;
 }
 .banner-text{
     font-size: 0.9rem;
@@ -65,12 +65,12 @@ header{
     background-color: #eeb3b1ef;
     color: white;
 }
-.hesh{
+.hesh-section-hesh{
     font-size: 1.6rem;
     font-style: italic;
     margin-bottom: 20px;
 }
-.hesh span{
+.hesh-section-hesh span{
     font-size: 6rem;
     line-height: 0;
 }
@@ -78,7 +78,7 @@ header{
     font-size: 0.8rem;
     width: 50%;
 }
-.gallery .image-container{
+.gallery-image-container{
     height: 500px;
     display: flex;
     flex-grow: 1;
@@ -86,22 +86,22 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.gallery .gallery-img-1{
+.gallery-img-1{
     background-image: url("../image/gallery-1.jpeg");
 }
-.gallery .gallery-img-2{
+.gallery-img-2{
     background-image: url("../image/gallery-2.jpeg");
 }
-.gallery .gallery-img-3{
+.gallery-img-3{
     background-image: url("../image/gallery-3.jpeg");
 }
-.gallery .gallery-img-4{
+.gallery-img-4{
     background-image: url("../image/gallery-4.jpeg");
 }
-.gallery .gallery-img-5{
+.gallery-img-5{
     background-image: url("../image/gallery-5.jpeg");
 }
-.gallery .gallery-img-6{
+.gallery-img-6{
     background-image: url("../image/gallery-6.jpeg");
 }
 
@@ -150,7 +150,7 @@ header{
     padding: 3rem;
 }
 .article-image-container .text-container{
-    height: 35rem;
+    height: 30rem;
     display: flex;
     align-items: center;
 }
@@ -168,15 +168,11 @@ header{
     flex-basis: 55%;
     padding: 1.2rem;
 }
-.article-text-container .article-text{
+.article-text-container p{
     font-size: 1.1rem;
     font-weight: 100;
     line-height: 2rem;
-}
-.row-me p{ 
-    font-size: 0.9rem;
-    margin-top: 50px;
-    padding: 30px;
+    margin-top: 10rem;
 }
 .items{
     background-color: #eeb3b1ef;
@@ -217,7 +213,7 @@ header{
    padding: 5rem;
 }
 .product-container {
-   height: 300px; 
+   height: 330px; 
    flex-grow: 1;
    flex-basis: 33%;
    overflow: hidden;
@@ -228,7 +224,7 @@ header{
     width: 100%;
 }
 .product-description{
-    height: 300px;
+    height: 330px;
     flex-grow: 1;
     flex-basis: 33%;
 
