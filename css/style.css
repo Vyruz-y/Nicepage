@@ -29,7 +29,7 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;
-}
+}   
 .custom-font{
     font-family: 'playfair', serif;
 }
@@ -138,26 +138,24 @@ body{
 }
 .input-container .input-text{
    padding: .8rem;
-   border-radius: 1.5rem;
+   border-radius: 1.7rem;
    border: unset;
 }
-.input-container button{
+.input-container .button{
     background-color: black;
     color: white;
     border: unset;
-    border-radius: 1.5rem;
-    padding: 0 2rem;
+    border-radius: 1.7rem;
+    padding: 0 1rem;
 }
-
 .article{
     padding: 3rem;
 }
 .article-image-container .text-container{
-    height: 30rem;
     display: flex;
     align-items: center;
 }
-.article-image-container{
+.article-image-container, .article-text-container{
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 35%;
@@ -174,8 +172,8 @@ body{
 .article-text-container p{
     font-size: 1.1rem;
     font-weight: 100;
-    line-height: 2rem;
-    margin-top: 10rem;
+    line-height: 1rem;
+    margin-top: 1rem;
 }
 .items{
     background-color: #eeb3b1ef;
@@ -218,6 +216,7 @@ body{
 .product-container {
    height: 330px; 
    flex-grow: 1;
+   flex-shrink: 0;
    flex-basis: 33%;
    overflow: hidden;
    display: flex;
@@ -243,16 +242,16 @@ body{
 }
 .product-description h6{
     font-weight: lighter;
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-transform: capitalize;
     text-align: left;
-    margin-bottom: 1.3rem;
+    margin-top: 1.2rem;
 }
 .product-description .price{
     font-weight: bold;
     font-size: 1.3rem;
     text-align: left;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
    
 }
 .product-description button{
