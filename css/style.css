@@ -108,7 +108,7 @@ body{
 .coming-soon{
     background-color: #eeb3b1ef;
     color: white;
-    padding: 50px 0;
+    padding: 4rem;
 }
 .coming-soon .row-me-column{
     justify-content: center;
@@ -126,7 +126,7 @@ body{
     font-size: 1.3rem;
 }
 .coming-soon .coming-soon-form{
-    margin-top: 15px;
+    margin-top: 3rem;
 }
 .coming-soon-form .row-me{
     justify-content: center;
@@ -134,18 +134,21 @@ body{
 .coming-soon .input-container{
     display: flex;
     justify-content: center;
-    padding: 0 5px;
+    padding: 1rem;
 }
-.input-container .input-text,
-.input-container .form-btn{
-   padding: 12px;
-   border-radius: 20px;
+.input-container .input-text{
+   padding: .8rem;
+   border-radius: 1.5rem;
    border: unset;
 }
-.input-container .form-btn{
+.input-container button{
     background-color: black;
     color: white;
+    border: unset;
+    border-radius: 1.5rem;
+    padding: 0 2rem;
 }
+
 .article{
     padding: 3rem;
 }
